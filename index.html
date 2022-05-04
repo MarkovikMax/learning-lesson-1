@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 1</title>
     <script src="https://kit.fontawesome.com/85a63f53b3.js" crossorigin="anonymous"></script>
@@ -28,14 +29,14 @@
             <img class="header__top-navigation-logo" src="img/header/5d25c64a1119300023270f70.svg" alt="Yacht-Logo"
                 width="176">
             <div class="header__top-navigation-links">
-                <a class="link" href="destinations.html">destinations/a>
+                <a class="link" href="destinations.html">destinations</a>
                 <a class="link" href="services.html">Services</a>
                 <a class="link" href="our-fleet.html">Our Fleet</a>
                 <a class="link" href="gallery.html">Gallery</a>
                 <a class="link" href="faq.html">FAQ</a>
                 <a class="link" href="about-us.html">About Us</a>
-                <a class="link" href="contacts">Contacts</a>
-                <a class="link button" href="contacts">Send request</a>
+                <a class="link" href="contacts.html">Contacts</a>
+                <a class="link button" href="contacts.html">Send request</a>
             </div>
         </nav>
         <div class="header__banner">
@@ -45,10 +46,32 @@
         </div>
     </header>
     <main>
-
+        <section class="sea">
+            <h2 class="sea__h2">
+                Sea the World
+            </h2>
+            <p class="sea__subheader">
+                Join our yacht trips to the most outstanding places of the world
+            </p>
+            <div class="sea__locations">
+                <article class="location">
+                    <img class="location__image" src="img/main/lication-rock-1.jpg" alt="Sea-Rock">
+                    <h3 class="location__h3">Affable Croatian Isles</h3>
+                    <div class="location__months">JUN | JUL | AUG | SEP</div>
+                </article>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer__contacts">
+            <h2 class="footer__contacts-h2">Contacts</h2>
+                <form action="https://formspree.io/f/xdobpvze" method="POST" >
+                    <input name="name" type="text" placeholder="Name*" required>
+                    <input name="phone" type="tel" placeholder="Phone number*" required> 
+                    <input name="email" type="email" placeholder="Email*" required>
+                    <input type="submit" value="Send Request">
+                </form>
+        </div>
     </footer>
 </body>
 
